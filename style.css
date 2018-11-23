@@ -21,7 +21,6 @@ body {
 	font-size: 30px;
 	color: #2d3950;
 	line-height: 37px;
-	cursor: picker;
 }
 
 .header .square1 {
@@ -117,7 +116,6 @@ body {
 	color: #ffffff;
 	line-height: 47px;
 	text-decoration: none;
-	cursor: picker;
 	position: absolute;
 	margin-left: 733px;
 	margin-right: 733px;
@@ -269,7 +267,7 @@ body {
 	width: 300px;
 	font-size: 15px;
 	color: #999999;
-	letter-spacing: 0.38;
+	letter-spacing: 0.38px;
 	text-align: center;
 	padding-right: 90px;
 }
@@ -278,7 +276,7 @@ body {
 	width: 312px;
 	font-size: 15px;
 	color: #999999;
-	letter-spacing: 0.38;
+	letter-spacing: 0.38px;
 	text-align: center;
 	padding-right: 90px;
 }
@@ -287,7 +285,7 @@ body {
 	width: 312px;
 	font-size: 15px;
 	color: #999999;
-	letter-spacing: 0.38;
+	letter-spacing: 0.38px;
 	text-align: center;
 }
 
@@ -317,7 +315,7 @@ body {
 .showcase p {
 	color: #909090;
 	font-size: 15px;
-	letter-spacing: 0.38;
+	letter-spacing: 0.38px;
 	line-height: 0px;
 	padding-left: 700px;
 }
@@ -329,7 +327,6 @@ body {
 	border-radius: 2px;
 	border: 1px solid #ffffff;
 	background-color: #15a4fa;
-	cursor: picker;
 	position: relative;
 	top: -145px;
 	left: 134px;
@@ -344,7 +341,6 @@ body {
 	border-radius: 2px;
 	border: 1px solid #ffffff;
 	background-color: #15a4fa;
-	cursor: picker;
 	position: relative;
 	top: -145px;
 	left: 140px;
@@ -523,7 +519,7 @@ body {
 	height: 60px;
 	color: #ffffff;
 	background-color: transparent;
-	border: 1 solid #999999;
+	border: 1px solid #999999;
 	border-radius: 2px;
 	resize: none;
 	transform: translate(516px, 25px);
@@ -538,7 +534,7 @@ body {
 	height: 60px;
 	color: #ffffff;
 	background-color: transparent;
-	border: 1 solid #999999;
+	border: 1px solid #999999;
 	border-radius: 2px;
 	resize: none;
 	transform: translate(-46px, 105px);
@@ -553,7 +549,7 @@ body {
 	height: 160px;
 	color: #ffffff;
 	background-color: transparent;
-	border: 1 solid #999999;
+	border: 1px solid #999999;
 	border-radius: 2px;
 	resize: none;
 	transform: translate(516px, 117px);
@@ -610,6 +606,7 @@ body {
 
 .socialboxes {
 	display: flex;
+	flex-direction: row;
 	transform: translate(1230px, -45px);
 }
 
@@ -619,37 +616,36 @@ body {
 	border: 1px solid #15a4fa;
 	border-radius: 2px;
 	background-color: #15a4fa;
-	margin-left: 5px;
 	cursor: pointer;
 }
 
 .twitterbutton {
 	width: 40px;
 	height: 40px;
+	margin-left: 5px;
 	border: 1px solid #15a4fa;
 	border-radius: 2px;
 	background-color: #15a4fa;
-	margin-left: 5px;
 	cursor: pointer;
 }
 
 .googlebutton {
 	width: 40px;
 	height: 40px;
+	margin-left: 5px;
 	border: 1px solid #15a4fa;
 	border-radius: 2px;
 	background-color: #15a4fa;
-	margin-left: 5px;
 	cursor: pointer;
 }
 
 .linkedbutton {
 	width: 40px;
 	height: 40px;
+	margin-left: 5px;
 	border: 1px solid #15a4fa;
 	border-radius: 2px;
 	background-color: #15a4fa;
-	margin-left: 5px;
 	cursor: pointer;
 }
 
